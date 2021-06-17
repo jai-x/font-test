@@ -29,6 +29,8 @@ namespace FontTest.Game
         private void load()
         {
             Resources.AddStore(new DllResourceStore(typeof(FontTestResources).Assembly));
+
+            AddFont(Resources, "Fonts/PetMe64/PetMe64");
         }
     }
 }
