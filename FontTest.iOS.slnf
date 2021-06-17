@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "FontTest.sln",
+    "projects": [
+      "FontTest.Game\\FontTest.Game.csproj",
+      "FontTest.Resources\\FontTest.Resources.csproj",
+      "FontTest.iOS\\FontTest.iOS.csproj"
+    ]
+  }
+}

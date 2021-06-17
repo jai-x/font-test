@@ -1,0 +1,11 @@
+﻿{
+  "solution": {
+    "path": "FontTest.sln",
+    "projects": [
+      "FontTest.Desktop\\FontTest.Desktop.csproj",
+      "FontTest.Game\\FontTest.Game.csproj",
+      "FontTest.Game.Tests\\FontTest.Game.Tests.csproj",
+      "FontTest.Resources\\FontTest.Resources.csproj"
+    ]
+  }
+}
