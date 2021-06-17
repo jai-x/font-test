@@ -21,16 +21,27 @@ namespace FontTest.Game
                 },
                 new SpriteText
                 {
-                    Y = 20,
-                    Text = "Main Screen",
-                    Anchor = Anchor.TopCentre,
-                    Origin = Anchor.TopCentre,
+                    Y = -100,
+                    Text = "FontUsage.Default",
+                    Anchor = Anchor.Centre,
+                    Origin = Anchor.Centre,
                     Font = FontUsage.Default.With(size: 40)
                 },
-                new SpinningBox
+                new SpriteText
                 {
+                    Text = "FontUsage(\"PetMe64\")",
                     Anchor = Anchor.Centre,
-                }
+                    Origin = Anchor.Centre,
+                    Font = new FontUsage("PetMe64", 40)
+                },
+                new SpriteText
+                {
+                    Y = 100,
+                    Text = "Framework.Regular",
+                    Anchor = Anchor.Centre,
+                    Origin = Anchor.Centre,
+                    Font = FrameworkFont.Regular.With(size: 40)
+                },
             };
         }
     }
